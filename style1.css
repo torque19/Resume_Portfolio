@@ -14,14 +14,14 @@ body{
 }
 .Name{
     position:absolute;
-    top:200px;
+    top:100px;
     right:600px;
     font-size: 10vw;
     font-weight:bold;
 }
 .work{
     position:absolute;
-    top:350px;
+    top:275px;
     right:700px;
     font-size: 30px;
 }
@@ -128,43 +128,47 @@ ul li a:hover{
     .Name{
           font-size: 11vw;
           position: absolute;
-          top:20%;
+          top:10%;
           left:27%;
           width:70%
       }
       .work{
           font-size:5vw;
           position:absolute;
-          top:25%;
+          top:15%;
           left:10%;
           width:105%;
       }
       .menu{
           position:absolute;
-          top:75%;
+          top:65%;
       }
       .fa-facebook {
           position:absolute;
-          left:17%;
+          top:20%;
+          left:14%;
       }
       .fa{
           width:15px;
       }
       .fa-twitter {
-        left:37%;
+        left:32%;
+        top:20%;
         
       }
       
       .fa-google {
-        left:52%;
+        left:47%;
+        top:20%;
         
       }
       
       .fa-linkedin {
-        left:68%;
+        left:63%;
+        top:20%;
        
       }
      ul li{
-         font-size:15px;
+         font-size:17px;
          margin:20px;
   }
