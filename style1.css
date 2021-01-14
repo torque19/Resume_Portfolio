@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    overflow:hidden;
 }
 .container{
     background-image: url("q.jpg");
@@ -128,15 +129,15 @@ ul li a:hover{
           font-size: 11vw;
           position: absolute;
           top:20%;
-          left:30%;
+          left:27%;
           width:70%
       }
       .work{
           font-size:5vw;
           position:absolute;
-          top:20%;
+          top:25%;
           left:10%;
-          width:100%;
+          width:105%;
       }
       .menu{
           position:absolute;
@@ -144,23 +145,23 @@ ul li a:hover{
       }
       .fa-facebook {
           position:absolute;
-          left:20%;
+          left:17%;
       }
       .fa{
           width:15px;
       }
       .fa-twitter {
-        left:39%;
+        left:37%;
         
       }
       
       .fa-google {
-        left:55%;
+        left:52%;
         
       }
       
       .fa-linkedin {
-        left:71%;
+        left:68%;
        
       }
      ul li{
