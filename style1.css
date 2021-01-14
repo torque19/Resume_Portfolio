@@ -128,15 +128,15 @@ ul li a:hover{
     .Name{
           font-size: 11vw;
           position: absolute;
-          top:10%;
+          top:5%;
           left:27%;
           width:70%
       }
       .work{
           font-size:5vw;
           position:absolute;
-          top:15%;
-          left:10%;
+          top:10%;
+          left:0%;
           width:105%;
       }
       .menu{
@@ -145,26 +145,26 @@ ul li a:hover{
       }
       .fa-facebook {
           position:absolute;
-          top:20%;
-          left:14%;
+          top:22%;
+          left:12%;
       }
       .fa{
           width:15px;
       }
       .fa-twitter {
-        left:32%;
+        left:33%;
         top:20%;
         
       }
       
       .fa-google {
-        left:47%;
+        left:50%;
         top:20%;
         
       }
       
       .fa-linkedin {
-        left:63%;
+        left:65%;
         top:20%;
        
       }
