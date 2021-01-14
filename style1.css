@@ -127,14 +127,14 @@ ul li a:hover{
     .Name{
           font-size: 11vw;
           position: absolute;
-          top:0%;
+          top:10%;
           left:30%;
           width:70%
       }
       .work{
           font-size:5vw;
           position:absolute;
-          top:10%;
+          top:20%;
           left:10%;
           width:100%;
       }
@@ -163,4 +163,7 @@ ul li a:hover{
         left:71%;
        
       }
+     ul li{
+         font-size:10px;
+         margin:20px;
   }
