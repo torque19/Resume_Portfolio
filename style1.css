@@ -116,7 +116,7 @@ ul li a:hover{
     left:55%;
    
   }
- @media screen and (max-width: 600px){
+ @media screen and (max-width:768px){
     .container{
         overflow:hidden;
     }
