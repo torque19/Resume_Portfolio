@@ -15,7 +15,7 @@ body{
     position:absolute;
     top:200px;
     right:600px;
-    font-size: 150px;
+    font-size: 1ovw;
     font-weight:bold;
 }
 .work{
@@ -115,4 +115,52 @@ ul li a:hover{
     top:39%;
     left:55%;
    
+  }
+ @media screen and (max-width: 768px){
+    .container{
+        overflow:hidden;
+    }
+    ul{
+        flex-direction: column;
+    
+    }  
+    .Name{
+          font-size: 11vw;
+          position: absolute;
+          top:25%;
+          left:30%;
+          width:60%
+      }
+      .work{
+          font-size:5vw;
+          position:absolute;
+          top:30%;
+          left:10%;
+          width:90%;
+      }
+      .menu{
+          position:absolute;
+          top:75%;
+      }
+      .fa-facebook {
+          position:absolute;
+          left:20%;
+      }
+      .fa{
+          width:15px;
+      }
+      .fa-twitter {
+        left:39%;
+        
+      }
+      
+      .fa-google {
+        left:55%;
+        
+      }
+      
+      .fa-linkedin {
+        left:71%;
+       
+      }
   }
