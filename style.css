@@ -659,13 +659,31 @@ ul li a{
         top: 375%;
     }
     .p:before, h1:before, .he:before{
-        width:90px;
-        height:3px;
-    }
-    .p:after, h1:after, .he:after{
         width:80px;
         height:3px;
-        left:105%;
+    }
+    h1:before{
+        width:80px;
+        height:3px;
+    }
+    he:before{
+        width:70px;
+        height:3px;
+    }
+    .p:after{
+        width:80px;
+        height:3px;
+        left:85%;
+    }
+    .h1:after{
+        width:80px;
+        height:3px;
+        left:90%;
+    }
+    .he:after{
+        width:80px;
+        height:3px;
+        left:100%;
     }
     .container1{
         width:170px;
@@ -755,6 +773,8 @@ ul li a{
       .he{
           top:250%;
           font-size:35px;
+          left:40%;
+          
       }
       .ML, .SDE, .WD, .CS{
           top:270%;
@@ -784,7 +804,7 @@ ul li a{
         width:70%;
     }
     .ML{
-        left:7%
+        left:5%
         animation: skills 25s infinite;
         animation-delay: 5s;
         width:320px;
@@ -875,7 +895,7 @@ ul li a{
     }
     .pr1{
         font-size:15px;
-        top:623%;
+        top:625%;
         left:10%;
 
     }
@@ -883,6 +903,7 @@ ul li a{
         top:660%;
         font-size:23px;
         left:10%;
+        width:50%;
     }
     .daimg2{
         top:675%;
