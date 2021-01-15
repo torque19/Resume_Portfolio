@@ -23,7 +23,7 @@ body{
     position:absolute;
     top:275px;
     right:700px;
-    font-size: 4vw;
+    font-size: 30px;
 }
 .menu{
     position:absolute;
@@ -129,14 +129,14 @@ ul li a:hover{
           font-size: 11vw;
           position: absolute;
           top:3%;
-          left:27%;
+          left:23%;
           width:70%
       }
       .work{
           font-size:4vw;
           position:absolute;
-          top:7%;
-          left:0%;
+          top:10%;
+          left:5%;
           width:105%;
       }
       .menu{
