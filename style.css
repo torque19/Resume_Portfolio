@@ -614,6 +614,9 @@ ul li a{
 }
 @media screen and (max-width: 768px){
 
+    body, html{
+        overflow:hidden;
+    }
     .header a.logo{
         font-size: 18px;
     }
@@ -716,6 +719,9 @@ ul li a{
           left:50%;
           background-color: black;
       }
+      #up{
+          background-color: black;
+    }
       .copy{
           position: absolute;
           top:108%;
