@@ -19,6 +19,7 @@ img{
     overflow:hidden;
     background-color: black;
     top:0%;
+    width:100%;
 }
 .header a.logo{
     font-size: 25px;
@@ -514,9 +515,7 @@ form{
     opacity:1.0;
     overflow:hidden;
 }
-footer{
-    top:730%;
-}
+
 
 .menu{
     position:absolute;
@@ -619,6 +618,10 @@ ul li a{
     .body{
         overflow:hidden;
     }
+    
+    .header{
+        width:50%;
+    }
 
     .header a.logo{
         font-size: 18px;
@@ -651,7 +654,7 @@ ul li a{
        top:480%;
     }
     .p{
-        font-size:30px;
+        font-size:10px;
         top: 450%;
         left:30%;
     }
@@ -661,7 +664,7 @@ ul li a{
         left:15%;
     }
     .p:before{
-        width:20px;
+        width:10px;
         height:3px;
     }
     we:before{
@@ -669,7 +672,7 @@ ul li a{
         height:3px;
     }
     he:before{
-        width:20px;
+        width:10px;
         height:3px;
     }
     .p:after{
@@ -730,13 +733,13 @@ ul li a{
       
       .fa-google {
         top:83%;
-        left:49%;
+        left:51%;
         
       }
       
       .fa-linkedin {
         top:83%;
-        left:71%;
+        left:73%;
        
       }
       .form{
@@ -753,7 +756,7 @@ ul li a{
       }
       .copy{
           position: absolute;
-          top:88%;
+          top:75%;
           right:7rem;
       }
       .border_img, .Ab_img{
@@ -913,11 +916,9 @@ ul li a{
         height:270px; 
         left:5%
     }
-    
-      
-
-
-    
+    footer{
+    top:730%;
+   }
 }
 
   
