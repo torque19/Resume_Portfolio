@@ -627,7 +627,7 @@ ul li a{
     .header a{
         font-size:15px;
         font-weight: bolder;
-        margin:1px;
+        margin:0.5px;
     }
     .container{
         width: 100%;
@@ -693,8 +693,6 @@ ul li a{
     .fa-facebook {
         top:80%;
         left:3%;
-       
-    
       }
       
       .fa-twitter {
@@ -755,6 +753,7 @@ ul li a{
           top:270%;
       }
       .my_img{
+          z-index:-1;
           width:100px;
           height:200px;
       }   
@@ -783,18 +782,18 @@ ul li a{
         animation-delay: 5s;
     }
     .SDE{
-        left:10%;
+        left:5%;
         animation: skills 25s infinite;
         animation-delay: 20s;
     
     }
     .WD{
-        left:10%;
+        left:5%;
         animation:skills 25s infinite;
         animation-delay:15s;
     }
     .CS{
-        left:10%;
+        left:5%;
         animation: skills 25s infinite;
         animation-delay: 10s;
 
