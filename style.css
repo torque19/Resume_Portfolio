@@ -614,7 +614,7 @@ ul li a{
 }
 
 @media screen and (max-width: 768px){
-    .body{
+    .body,html{
         overflow:hidden;
     }
 
@@ -624,10 +624,6 @@ ul li a{
     .header a{
         font-size:15px;
         font-weight: bolder;
-    }
-    .image{
-        position:relative;
-        float:left;
     }
     .container{
         width: 100%;
@@ -683,7 +679,7 @@ ul li a{
         flex-direction: column;
     }
     .fa-facebook {
-        top:5%;
+        top:80%;
         left:5%;
        
     
@@ -691,20 +687,20 @@ ul li a{
       
       .fa-twitter {
         
-        top:23%;
-        left:8%;
+        top:83%;
+        left:27%;
         
       }
       
       .fa-google {
-        top:40%;
-        left:8%;
+        top:80%;
+        left:49%;
         
       }
       
       .fa-linkedin {
-        top:57%;
-        left:8%;
+        top:83%;
+        left:71%;
        
       }
       .form{
@@ -722,7 +718,7 @@ ul li a{
       .copy{
           position: absolute;
           top:108%;
-          right:10rem;
+          right:7rem;
       }
       .border_img, .Ab_img{
           width: 250px;
@@ -747,8 +743,8 @@ ul li a{
           top:270%;
       }
       .my_img{
-          width:200px;
-          height:300px;
+          width:150px;
+          height:200px;
       }   
          
       .image{
