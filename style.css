@@ -621,6 +621,7 @@ ul li a{
     .header a{
         font-size:10px;
         font-weight: bolder;
+        padding:7px;
     }
     .image{
         position:relative;
