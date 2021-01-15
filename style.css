@@ -615,15 +615,11 @@ ul li a{
 }
 
 @media screen and (max-width: 768px){
-    .header{
-        width:81%;
-    }
-
     .header a.logo{
         font-size: 18px;
     }
     .header a{
-        font-size:15px;
+        font-size:10px;
         font-weight: bolder;
     }
     .image{
@@ -660,11 +656,11 @@ ul li a{
         left:15%;
     }
     .p:before{
-        width:40px;
+        width:50px;
         height:3px;
     }
     .we:before{
-        width:50px;
+        width:40px;
         height:3px;
     }
     .he:before{
@@ -672,12 +668,12 @@ ul li a{
         height:3px;
     }
     .p:after{
-        width:40px;
+        width:50px;
         height:3px;
         left:67%;
     }
     .we:after{
-        width:50px;
+        width:40px;
         height:3px;
         left:100%;
     }
@@ -787,7 +783,7 @@ ul li a{
          
       .image{
         position: absolute;
-        z-index:inherit -1;
+        z-index:2;
         top:25%;
         left:0%;
         margin-left:50px;
