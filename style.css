@@ -786,14 +786,14 @@ ul li a{
         z-index:2;
         top:28%;
         left:0%;
-        margin-left:40px;
+        margin-left:37px;
         margin-top:0px;
     }
     .button{
         position:absolute;
-        top:40%;
-        left:30%;
-        width:30%;
+        top:38%;
+        left:28%;
+        width:28%;
     }
     .obj,.objective{
         top:75%;
