@@ -622,6 +622,8 @@ ul li a{
         font-size:10px;
         font-weight: bolder;
         padding:7px;
+        position:absolute;
+        left:30%;
     }
     .image{
         position:relative;
