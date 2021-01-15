@@ -18,7 +18,6 @@ img{
     z-index:2;
     overflow:hidden;
     background-color: black;
-    width:100%;
     top:0%;
 }
 .header a.logo{
@@ -653,6 +652,7 @@ ul li a{
     }
     .p,h1{
         font-size:31px;
+        font-size:500px;
     }
     .p:before, h1:before, .he:before{
         width:90px;
@@ -662,7 +662,7 @@ ul li a{
         left:105%;
     }
     .container1{
-        width:190px;
+        width:500px;
         height:150px;
         left:4%;
     }
@@ -670,7 +670,7 @@ ul li a{
         font-size:15px;
     }
     .container2{
-        width:190px;
+        width:500px;
         height:150px;
         left:52%;
     }
@@ -731,11 +731,11 @@ ul li a{
       .border_img, .Ab_img{
           width: 250px;
           height:350px;
-          left:17%;
+          left:15%;
           top:125%;
       }
       .about-text{
-          top:172%;
+          top:177%;
           left:10%;
           font-size:15px;
       }
