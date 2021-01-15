@@ -615,12 +615,13 @@ ul li a{
 }
 
 @media screen and (max-width: 768px){
-    .body{
-        overflow:hidden;
+    .body,html{
+       overflow:hidden;
+      
     }
     
     .header{
-        width:50%;
+        width:80%;
     }
 
     .header a.logo{
@@ -654,7 +655,7 @@ ul li a{
        top:480%;
     }
     .p{
-        font-size:10px;
+        font-size:20px;
         top: 450%;
         left:30%;
     }
@@ -683,7 +684,7 @@ ul li a{
     .we:after{
         width:20px;
         height:3px;
-        left:100%;
+        left:105%;
     }
     .he:after{
         width:70px;
