@@ -120,7 +120,6 @@ ul li a:hover{
  @media only screen and (max-width:768px){
      .body,html{
          overflow:hidden;
-         position:fixed;
      }
     .container{
         overflow:hidden;
