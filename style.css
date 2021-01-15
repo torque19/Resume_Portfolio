@@ -658,29 +658,29 @@ ul li a{
     .we{
         font-size:30px;
         top: 375%;
-        left:20%;
+        left:15%;
     }
     .p:before{
         width:80px;
         height:3px;
     }
     we:before{
-        width:60px;
+        width:20px;
         height:3px;
     }
     he:before{
-        width:70px;
+        width:40px;
         height:3px;
     }
     .p:after{
         width:80px;
         height:3px;
-        left:70%;
+        left:67%;
     }
     .we:after{
-        width:50px;
+        width:20px;
         height:3px;
-        left:50%;
+        left:80%;
     }
     .he:after{
         width:70px;
@@ -715,7 +715,7 @@ ul li a{
         flex-direction: column;
     }
     .fa-facebook {
-        top:83%;
+        top:80%;
         left:3%;
        
     
@@ -736,7 +736,7 @@ ul li a{
       
       .fa-linkedin {
         top:83%;
-        left:51%;
+        left:61%;
        
       }
       .form{
@@ -753,8 +753,8 @@ ul li a{
       }
       .copy{
           position: absolute;
-          top:108%;
-          right:10rem;
+          top:88%;
+          right:7rem;
       }
       .border_img, .Ab_img{
           width: 250px;
