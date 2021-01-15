@@ -514,6 +514,9 @@ form{
     opacity:1.0;
     overflow:hidden;
 }
+footer{
+    top:730%;
+}
 
 .menu{
     position:absolute;
@@ -644,7 +647,7 @@ ul li a{
     .daimg{
        width:360px;
        height:300px; 
-       left:10%;
+       left:7%;
        top:480%;
     }
     .p{
@@ -667,7 +670,7 @@ ul li a{
     .container1{
         width:170px;
         height:130px;
-        left:10%;
+        left:5%;
         top:400%;
     }
     .projects, .intern{
@@ -676,7 +679,7 @@ ul li a{
     .container2{
         width:170px;
         height:130px;
-        left:54%;
+        left:52%;
         top:400%;
     }
     .numlink{
@@ -736,11 +739,11 @@ ul li a{
       .border_img, .Ab_img{
           width: 250px;
           height:350px;
-          left:20%;
+          left:10%;
           top:125%;
       }
       .about-text{
-          top:168%;
+          top:173%;
           left:10%;
           font-size:15px;
       }
@@ -867,7 +870,7 @@ ul li a{
         top:586%;
         width:360px;
         height:300px; 
-        left:10%
+        left:7%
     }
     .pr1{
         font-size:15px;
@@ -884,7 +887,7 @@ ul li a{
         top:670%;
         width:360px;
         height:300px; 
-        left:10%
+        left:7%
     }
     
       
