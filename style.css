@@ -688,7 +688,7 @@ ul li a{
     }
     .fa-facebook {
         top:80%;
-        left:5%;
+        left:3%;
        
     
       }
@@ -701,7 +701,7 @@ ul li a{
       }
       
       .fa-google {
-        top:80%;
+        top:83%;
         left:49%;
         
       }
@@ -757,6 +757,7 @@ ul li a{
          
       .image{
         position: absolute;
+        z-index:inherit -1;
         top:25%;
         left:0%;
         margin-left:50px;
