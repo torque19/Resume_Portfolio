@@ -645,8 +645,8 @@ ul li a{
         left:53%;
     }
     .daimg{
-       width:360px;
-       height:300px; 
+       width:330px;
+       height:270px; 
        left:7%;
        top:480%;
     }
@@ -670,7 +670,7 @@ ul li a{
     .container1{
         width:170px;
         height:130px;
-        left:5%;
+        left:2%;
         top:400%;
     }
     .projects, .intern{
@@ -679,7 +679,7 @@ ul li a{
     .container2{
         width:170px;
         height:130px;
-        left:52%;
+        left:51%;
         top:400%;
     }
     .numlink{
@@ -743,7 +743,7 @@ ul li a{
           top:125%;
       }
       .about-text{
-          top:173%;
+          top:175%;
           left:10%;
           font-size:15px;
       }
@@ -784,13 +784,14 @@ ul li a{
         width:70%;
     }
     .ML{
+        left:7%
         animation: skills 25s infinite;
         animation-delay: 5s;
         width:320px;
         height:400px;
     }
     .SDE{
-        left:10%;
+        left:7%;
         animation: skills 25s infinite;
         animation-delay: 20s;
         width:320px;
@@ -798,14 +799,14 @@ ul li a{
     
     }
     .WD{
-        left:10%;
+        left:7%;
         animation:skills 25s infinite;
         animation-delay:15s;
         width:320px;
         height:420px;
     }
     .CS{
-        left:10%;
+        left:7%;
         animation: skills 25s infinite;
         animation-delay: 10s;
         width:320px;
@@ -843,7 +844,7 @@ ul li a{
         100% { opacity: 1; z-index: 2; }
     }
     .pr2{
-        top:710%;
+        top:720%;
         font-size:15px;
         left:10%;
     }
@@ -864,29 +865,29 @@ ul li a{
         top:580%;
         left:35%;
         width:50%;
-        font-size:25px;
+        font-size:23px;
     }
     .daimg1{
         top:586%;
-        width:360px;
-        height:300px; 
+        width:330px;
+        height:270px; 
         left:7%
     }
     .pr1{
         font-size:15px;
-        top:625%;
+        top:635%;
         left:10%;
 
     }
     .da2{
         top:660%;
-        font-size:25px;
+        font-size:23px;
         left:15%;
     }
     .daimg2{
         top:670%;
-        width:360px;
-        height:300px; 
+        width:330px;
+        height:270px; 
         left:7%
     }
     
