@@ -117,7 +117,10 @@ ul li a:hover{
     left:55%;
    
   }
- @media screen and (max-width:768px){
+ @media only screen and (max-width:768px){
+     .body,html{
+         overflow:hidden;
+     }
     .container{
         overflow:hidden;
     }
@@ -136,7 +139,7 @@ ul li a:hover{
           font-size:4vw;
           position:absolute;
           top:10%;
-          left:5%;
+          left:7%;
           width:105%;
       }
       .menu{
@@ -145,7 +148,7 @@ ul li a:hover{
       }
       .fa-facebook {
           position:absolute;
-          top:21%;
+          top:19%;
           left:11%;
       }
       .fa{
