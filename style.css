@@ -785,9 +785,9 @@ ul li a{
       .image{
         position: absolute;
         z-index:2;
-        top:25%;
+        top:28%;
         left:0%;
-        margin-left:50px;
+        margin-left:40px;
         margin-top:0px;
     }
     .button{
@@ -797,7 +797,7 @@ ul li a{
         width:23%;
     }
     .obj,.objective{
-        top:60%;
+        top:70%;
         left:15%;
         width:70%;
     }
