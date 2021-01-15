@@ -647,7 +647,7 @@ ul li a{
     .daimg{
        width:330px;
        height:270px; 
-       left:7%;
+       left:5%;
        top:480%;
     }
     .p{
@@ -844,7 +844,7 @@ ul li a{
         100% { opacity: 1; z-index: 2; }
     }
     .pr2{
-        top:720%;
+        top:717%;
         font-size:15px;
         left:10%;
     }
@@ -852,7 +852,7 @@ ul li a{
     .da{
         top:470%;
         font-size:25px;
-        left:13%;
+        left:10%;
         width:80%;
     }
     .pr{
@@ -871,24 +871,24 @@ ul li a{
         top:586%;
         width:330px;
         height:270px; 
-        left:7%
+        left:5%
     }
     .pr1{
         font-size:15px;
-        top:635%;
+        top:623%;
         left:10%;
 
     }
     .da2{
         top:660%;
         font-size:23px;
-        left:15%;
+        left:10%;
     }
     .daimg2{
-        top:670%;
+        top:675%;
         width:330px;
         height:270px; 
-        left:7%
+        left:5%
     }
     
       
