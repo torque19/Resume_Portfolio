@@ -613,13 +613,9 @@ ul li a{
 }
 
 @media screen and (max-width: 768px){
-    body, html{
-    margin: 0;
-    font-family:Arial, Helvetica, sans-serif;
-    user-select: none;
-    overflow-x:hidden;
-    scroll-behavior: smooth;
-   }
+    .body{
+        overflow:hidden;
+    }
 
     .header a.logo{
         font-size: 18px;
@@ -627,7 +623,10 @@ ul li a{
     .header a{
         font-size:15px;
         font-weight: bolder;
-        margin:0.5px;
+    }
+    .image{
+        position:relative;
+        float:left;
     }
     .container{
         width: 100%;
@@ -642,48 +641,50 @@ ul li a{
         font-size:28px;
         left:53%;
     }
-    img{
-    overflow:hidden;
-    object-fit: cover;
-    }
     .daimg{
-       width:380px;
-       height:310px; 
-       left:7%;
-        top:450%;
+       width:360px;
+       height:300px; 
+       left:10%;
+       top:480%;
     }
-    .p,h1{
-        font-size:31px;
-        top:500%;
+    .p{
+        font-size:35px;
+        top: 450%;
+    }
+    .we{
+        font-size:35px;
+        top: 375%;
     }
     .p:before, h1:before, .he:before{
         width:90px;
+        height:3px;
     }
     .p:after, h1:after, .he:after{
         width:80px;
+        height:3px;
         left:105%;
     }
     .container1{
-        width:190px;
-        height:150px;
-        left:4%;
-        top:450%
+        width:170px;
+        height:130px;
+        left:10%;
+        top:400%;
     }
     .projects, .intern{
         font-size:15px;
     }
     .container2{
-        width:190px;
-        height:150px;
-        left:52%;
-        450%;
+        width:170px;
+        height:130px;
+        left:54%;
+        top:400%;
     }
     .numlink{
-        font-size:35px;
+        font-size:30px;
     }
     .num{
-        width:50px;
-        height:50px;
+        width:40px;
+        height:40px;
     }
     .fa{
         font-size:15px;
@@ -691,26 +692,28 @@ ul li a{
         flex-direction: column;
     }
     .fa-facebook {
-        top:80%;
-        left:3%;
+        top:5%;
+        left:5%;
+       
+    
       }
       
       .fa-twitter {
         
-        top:83%;
-        left:27%;
+        top:23%;
+        left:8%;
         
       }
       
       .fa-google {
-        top:83%;
-        left:49%;
+        top:40%;
+        left:8%;
         
       }
       
       .fa-linkedin {
-        top:83%;
-        left:71%;
+        top:57%;
+        left:8%;
        
       }
       .form{
@@ -728,16 +731,16 @@ ul li a{
       .copy{
           position: absolute;
           top:108%;
-          right:7rem;
+          right:10rem;
       }
       .border_img, .Ab_img{
           width: 250px;
           height:350px;
-          left:10%;
+          left:20%;
           top:125%;
       }
       .about-text{
-          top:177%;
+          top:168%;
           left:10%;
           font-size:15px;
       }
@@ -748,14 +751,14 @@ ul li a{
       }
       .he{
           top:250%;
+          font-size:35px;
       }
       .ML, .SDE, .WD, .CS{
           top:270%;
       }
       .my_img{
-          z-index:-1;
-          width:100px;
-          height:200px;
+          width:150px;
+          height:250px;
       }   
          
       .image{
@@ -770,33 +773,64 @@ ul li a{
         position:absolute;
         top:26%;
         left:65%;
-        width:30%;
+        width:23%;
     }
     .obj,.objective{
-        top:80%;
+        top:60%;
         left:15%;
         width:70%;
     }
     .ML{
         animation: skills 25s infinite;
         animation-delay: 5s;
+        width:320px;
+        height:400px;
     }
     .SDE{
-        left:5%;
+        left:10%;
         animation: skills 25s infinite;
         animation-delay: 20s;
+        width:320px;
+        height:420px;
     
     }
     .WD{
-        left:5%;
+        left:10%;
         animation:skills 25s infinite;
         animation-delay:15s;
+        width:320px;
+        height:420px;
     }
     .CS{
-        left:5%;
+        left:10%;
         animation: skills 25s infinite;
         animation-delay: 10s;
+        width:320px;
+        height:420px;
 
+    }
+    .ML .mlimg{
+        width:320px;
+        height: 250px;
+        overflow:hidden;
+    }
+    .SDE .sdeimg{
+        width:320px;
+        height: 250px;
+        overflow:hidden;
+    }
+    .CS .csimg{
+        width:320px;
+        height: 250px;
+        overflow:hidden;
+    }
+    .WD .wdimg{
+        width:320px;
+        height: 250px;
+        overflow:hidden;
+    }
+    .write{
+        font-size:15px;
     }
 
     @keyframes skills{
@@ -805,6 +839,57 @@ ul li a{
         66.666% { opacity: 0; z-index: 0; }
         100% { opacity: 1; z-index: 2; }
     }
+    .pr2{
+        top:710%;
+        font-size:15px;
+        left:10%;
+    }
+
+    .da{
+        top:470%;
+        font-size:25px;
+        left:13%;
+        width:80%;
+    }
+    .pr{
+        font-size:15px;
+        top:520%;
+        left:10%;
+    }
+
+    .da1{
+        top:580%;
+        left:35%;
+        width:50%;
+        font-size:25px;
+    }
+    .daimg1{
+        top:586%;
+        width:360px;
+        height:300px; 
+        left:10%
+    }
+    .pr1{
+        font-size:15px;
+        top:625%;
+        left:10%;
+
+    }
+    .da2{
+        top:660%;
+        font-size:25px;
+        left:15%;
+    }
+    .daimg2{
+        top:670%;
+        width:360px;
+        height:300px; 
+        left:10%
+    }
+    
+      
+
+
     
 }
 
