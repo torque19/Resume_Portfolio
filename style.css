@@ -17,7 +17,9 @@ img{
     position:fixed;
     z-index:2;
     overflow:hidden;
-    background-color: black;;
+    background-color: black;
+    width:100%;
+    top:0%;
 }
 .header a.logo{
     font-size: 25px;
@@ -675,8 +677,7 @@ ul li a{
     }
     .fa{
         font-size:15px;
-        display:flex;
-        flex-direction: column;
+        width:20px;
     }
     .fa-facebook {
         top:5%;
@@ -720,11 +721,7 @@ ul li a{
           top:108%;
           right:10rem;
       }
-    
-
-
-    
-}
+  }
 
 
 
