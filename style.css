@@ -641,6 +641,7 @@ ul li a{
         width:50%;
         font-size:28px;
         left:53%;
+        top:70%;
     }
     .daimg{
        width:330px;
@@ -794,9 +795,9 @@ ul li a{
     }
     .button{
         position:absolute;
-        top:26%;
-        left:65%;
-        width:23%;
+        top:40%;
+        left:30%;
+        width:30%;
     }
     .obj,.objective{
         top:75%;
