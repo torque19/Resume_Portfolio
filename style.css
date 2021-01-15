@@ -651,12 +651,12 @@ ul li a{
        top:480%;
     }
     .p{
-        font-size:35px;
+        font-size:30px;
         top: 450%;
         left:30%;
     }
     .we{
-        font-size:35px;
+        font-size:30px;
         top: 375%;
         left:30%;
     }
@@ -678,7 +678,7 @@ ul li a{
         left:86%;
     }
     .we:after{
-        width:20px;
+        width:50px;
         height:3px;
         left:50%;
     }
@@ -806,7 +806,7 @@ ul li a{
         width:70%;
     }
     .ML{
-        left:4%
+        left:2%
         animation: skills 25s infinite;
         animation-delay: 5s;
         width:320px;
@@ -897,7 +897,7 @@ ul li a{
     }
     .pr1{
         font-size:15px;
-        top:625%;
+        top:621%;
         left:10%;
 
     }
@@ -908,7 +908,7 @@ ul li a{
         width:80%;
     }
     .daimg2{
-        top:675%;
+        top:672%;
         width:330px;
         height:270px; 
         left:5%
